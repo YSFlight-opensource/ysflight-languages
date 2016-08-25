@@ -1,0 +1,570 @@
+YSFLIGHT_LOCALIZATION_INFO_FILE
+
+*Needs to be encoded in UTF-8
+
+$LABEL "Ukrainian"
+$FGCOL 255
+$BGCOL 0
+
+
+
++airdlg/smoke/samecolor                            #Одинаковий Колір для всіх генераторів Диму
++assigndlg/setdefaultkeyassign                     #Встановити за умовчанням лише Комбінації Клавіш (Залишивши налаштування Миші/Джостика)
++common/mission                                    #---Міссії---
++common/wingman                                    #Напарники
++dlg/autopilot/circle                              #По колу
++dlg/autopilot/disengage                           #Вимкнути Автопілот
++dlg/autopilot/fly_hdgbug                          #Слідувати Heading Bug
++dlg/autopilot/landing                             #Приземлення
++dlg/autopilot/straight_level                      #Тримати Курс і Висоту
++dlg/autopilot/takeoff                             #Взлетіти
++dlg/radiocomm/fueltruck/call                      #Викликати
++dlg/radiocomm/fueltruck/dismiss                   #Відкликати
++dlg/radiocomm/fueltruck/title                     #Звязатися з Дозаправником палива
++dlg/radiocomm/formation/dontcall                  #Не викликати
++dlg/radiocomm/formation/spread                    #Віддалитися
++dlg/radiocomm/formation/tighten                   #Зблизитися
++dlg/radiocomm/wingman_command/attack_ground       #Атаувати Наземну ціль!
++dlg/radiocomm/wingman_command/break_and_attack    #Розвернутися й Атакувати!
++dlg/radiocomm/wingman_command/cover_me            #Прикрий Мене!
++dlg/radiocomm/wingman_command/dontsend            #Не надсилати команд
++dlg/radiocomm/wingman_command/form_on_my_wing     #Приєднуйся до моєї Групи!
++dlg/radiocomm/wingman_command/hold                #Залишатися у визначеному квадраті!
++dlg/radiocomm/wingman_command/land_refuel_takeoff #Приземлитися, дозаправитися, і взлетіти
++dlg/radiocomm/wingman_command/rtb                 #Повернутися на Базу
++dlg/radiocomm/wingman_command/title               #Команда Напарнику
++dlg/radiocomm/target/all_in_formation             #Всім Літакам у Груповому строї
++dlg/radiocomm/target/allwingman                   #Всім Напарникам
++dlg/radiocomm/target/atc                          #Диспетчерський Центр
++dlg/radiocomm/target/dontcall                     #Не викликати нікого
++dlg/radiocomm/target/fueltruck                    #Бензозаправник
++dlg/radiocomm/target/gunner                       #Кулеметник
++gamemsg/esctwice                                  #Натисніть ESC Двічі щоб Зупинити Симуляцію
++gamemsg/esconce                                   #Натисніть ESC Ще раз щоб Вийти
+
++errmsg/createflt                                  #Будь-ласка, спочатку створіть або відкрийте політ.
++errmsg/nofltrecord                                #Відсутній запис польоту.
++errmsg/noprevflt                                  #Дані Попередньої Міссії не доступні або пошкоджені.
+
++errmsg/landingpracticenotavailable                #Режим Практики Приземлення не доступний для цього сценарію.
+
++common/ok                                         #OK
++common/cancel                                     #Скасувати
++common/close                                      #Закрити
++common/delete                                     #Видалити
++common/field                                      #Карта
++common/startpos                                   #Стартова Позиція
++common/setdefault                                 #За Умовчанням
++common/english                                    #English
++common/autolanguage                               #Language Auto Select
++common/general                                    #Основне
++common/yes                                        #Так
++common/no                                         #Ні
++common/error                                      #Помилка!
+
++aboutdlg/title                                    #Про YS FLIGHT SIMULATOR
++aboutdlg/version                                  #Версія
+
++maindlg/showconsole                               #Показати Консоль
++menu/file/recent                                  #Попередні Файли
++menu/learning/close                               #Закрити Данні Тренування
++menu/learning/open                                #Відкрити Данні Тренування
++menu/learning/save                                #Зберегти Данні Тренування
++misc/testver                                      #This program is an untested version of YSFLIGHT for debugging purpose,\ni.e., I haven't systematically tested this program.  Naturally, a lot\nof bugs must be included in this program.  If you'd like to use a little\nmore stable version, please download current latest official release\nversion.  If you notice a bug in this untested version, please E-Mail\nme (PEB01130@nifty.com).  I'm trying to reply as many as possible,\nbut sometimes (especially when I'm busy) you may receive my reply\nafter two or three months, or sometimes I just forget.  I apologize\nif you experience such delay (^_^;)\n
+
++misc/firststartrecordfailure                      #Failed to record the first launch of the program.\nPlease ask the system administrator to start this\nprogram once, or to give you write-access right\nof the YSFLIGHT install directory.\n
+
++misc/initialized                                  #The configuration has been initialized.
++misc/voteysflight                                 #The final-round voting of the Vector-Award competition is open through\nMarch 15.  It is a popularity voting that decides the most popular\nsoftware among all software programs hosted by Vector.\n\nVector is a Japanese company, and there is unfortunately no English \nversion of the voting page.  But, if you can read Japanese, please click\non the following link and vote for YSFLIGHT.  Thank you!\n
+
++airdlg/aircrafttab                                #Основний засіб пересування
++airdlg/loadingtab                                 #Завантаження
++airdlg/categorytab                                #Категорії літаків
++airdlg/aircraft                                   #Літак
++airdlg/aamshort                                   #AAM (Короткої дистанції)
++airdlg/aaamshort                                  #A-AAM (Короткої дистанції)
++airdlg/aammid                                     #AAM (Середньої дистанції)
++airdlg/agm                                        #AGM (Повітря-Земля)
++airdlg/bomb500                                    #BOM (500lb)
++airdlg/bomb250                                    #BOM (250lb)
++airdlg/bomb500hd                                  #BOM (500lb-HD)
++airdlg/rocket                                     #Rocket
++airdlg/flarepod                                   #Chaff/Flare Pod (Теплові Ловушки)
++airdlg/fueltank                                   #Fuel Tank (Зовнішній Бак)
++airdlg/fuel                                       #Паливо(%)
++airdlg/smoke                                      #Дим
++airdlg/smokecol                                   #Колір Диму
++airdlg/search                                     #Пошук
++airdlg/normal                                     #Звичайні
++airdlg/utility                                    #ІНШІ
++airdlg/aerobatic                                  #Акробатичні
++airdlg/fighter                                    #Винищувачі
++airdlg/attacker                                   #Штурмовики
++airdlg/trainer                                    #Тренувальні
++airdlg/bomber                                     #Бомбардувальники
++airdlg/ww2fighter                                 #WW2 Винищувачі
++airdlg/ww2attacker                                #WW2 Штурмовики
++airdlg/ww2bomber                                  #WW2 Бомбардувальники
++airdlg/ww2divebomber                              #WW2 Стратегічні Бомбардувальники
+
++aircombatdlg/noplayerplane                        #Будь-ласка оберіть власний літак
+
++newfltdlg/createnewflight                         #=== Створити Новий Політ ===
++newfltdlg/selectair                               #Замінити власний Літак
++newfltdlg/changewingman1                          #Замінити Напарника 1
++newfltdlg/changewingman2                          #Замінити Напарника 2
++newfltdlg/changewingman3                          #Замінити Напарника 3
++newfltdlg/changewingman4                          #Замінити Напарника 4
++newfltdlg/changewingman5                          #Замінити Напарника 5
++newfltdlg/changewingman6                          #Замінити Напарника 6
++newfltdlg/changewingman7                          #Замінити Напарника 7
++newfltdlg/changewingman8                          #Замінити Напарника 8
++newfltdlg/changewingman9                          #Замінити Напарника 9
++newfltdlg/environment                             #Метео умови (погода)
++newfltdlg/specifyenvironment                      #Визначені Метео умови
++newfltdlg/day                                     #День
++newfltdlg/night                                   #Ніч
++newfltdlg/weather                                 #Погода
++newfltdlg/winddir                                 #Напрямок Вітру (градус)
++newfltdlg/windspd                                 #Шидкість Вітру(вузли)
++newfltdlg/visibility                              #Видимість(милі)
++newfltdlg/overcast                                #Шари хмар
++newfltdlg/overcastfloor                           #Хмари на висоті (фути)
++newfltdlg/overcastthickness                       #Товщина шару (фути)
++newfltdlg/formation                               #Груповий стрій
++newfltdlg/flynow                                  #= Розпочати зараз =
++newfltdlg/wingman                                 #Напарники
++newfltdlg/nousablegndobj                          #Немає доступних наземних об'єктів.
++newfltdlg/allowstealth                            #Стелси (невидимки)
++newfltdlg/allowbomb                               #Бомби (BOM)
++newfltdlg/allowagm                                #Снаряди Повітря-Земля (AGM)
++newfltdlg/allowheavybomber                        #Важкі Бомбардувальники
++newfltdlg/maxnumattacker                          #Макс. кількість Атакувальників
++newfltdlg/jet                                     #Реактивні літаки
++newfltdlg/ww2                                     #WW2 (літаки 2-ої Світової Війни)
++newfltdlg/addcomair                               #Додати Літаки Комп'ютером
+
++resultdlg/missiongoal                             #Мета Міссії
++resultdlg/success                                 #[+] МІССІЮ ВИКОНАНО!
++resultdlg/failure                                 #[-] МІССІЮ ПРОВАЛЕНО...
++resultdlg/failure/kia                             #ПРОВАЛЕНО: Тебе вбито в ході міссії.
++resultdlg/failure/earlytermination                #ПРОВАЛЕНО: Ти перервав міссію під час виконання.
++resultdlg/failure/misseddestination               #ПРОВАЛЕНО: Ти не зміг приземлитися у потрібному місці.
++resultdlg/failure/groundloss                      #ПРОВАЛЕНО: Забагато одиниць транспорту/об'єктів було зруйновано. (Врятовано=%d, Необхідно=%d)
++resultdlg/failure/failedtoprotect                 #ПРОВАЛЕНО: Не зміг захистити %s
++resultdlg/failure/airstrike                       #ПРОВАЛЕНО: Лише кілька наземних цілей було зруйновано. (Знищено=%d, Необхідно=%d)
++resultdlg/failure/failedtodestroy                 #ПРОВАЛЕНО: Не зміг зруйнувати %s
++resultdlg/failure/failedtokill                    #ПРОВАЛЕНО: Не зміг знищити %s
++resultdlg/failure/failedtokillall                 #ПРОВАЛЕНО: Не зміг знищити всі ворожі літаки.
++resultdlg/failure/failedtoescort                  #ПРОВАЛЕНО: Напарник %s не зміг приземлитися.
+
++resultdlg/success/arriveddestination              #ВИКОНАНО: Ти дістався визначеного місця.
++resultdlg/success/protected                       #ВИКОНАНО: Цілком захищено %s
++resultdlg/success/groundsurvive                   #ВИКОНАНО: %d наземних цілей врятовано.
++resultdlg/success/airstrike                       #ВИКОНАНО: Зруйновано %d наземних об'єктів.
++resultdlg/success/destroyed                       #ВИКОНАНО: Зруйновано %s
++resultdlg/success/killed                          #ВИКОНАНО: Збито %s
++resultdlg/success/killedall                       #ВИКОНАНО: Збито всі ворожі літаки.
++resultdlg/success/escorted                        #ВИКОНАНО: Супроводжуваний %s приземлився успішно.
+
++resultdlg/summary                                 #Підсумок
++resultdlg/usedaircraft                            #Твоя роль: %s
++resultdlg/finalstate                              #Фінальна позиція: %s
++resultdlg/facilities                              #Транспорт/Об'єкти
++resultdlg/alivedead                               #Врятовано:%d Втрачено:%d
++resultdlg/airtoairscore                           #Повітря-Повітря Зараховано: %d
++resultdlg/airtoairpenalty                         #Повітря-Повітря Пенальті: %d
++resultdlg/airtoairkill                            #Збито %d літаків
++resultdlg/noaircombat                             #No air combat
++resultdlg/airtogndscore                           #Повітря-Земля Зараховано: %d
++resultdlg/airtogndpenalty                         #Повітря-Земля Пенальті: %d
++resultdlg/airtogndkill                            #Знищено %d наземних цілей
++resultdlg/noairstrike                             #No air strike
++resultdlg/totalscore                              #Загальний рахунок:%d
+
++resultdlg/state/flying                            #Ще в повітрі, не приземлився
++resultdlg/state/landed                            #Приземлився
++resultdlg/state/landedstatic                      #Приземлився і зупинився
++resultdlg/state/dead                              #Загинув
++resultdlg/state/overrun                           #Поза зоною
++resultdlg/state/unknown                           #Невідомо
+
++resultdlg/scoredtail                              #Результат в деталях
+
++resultdlg/landinganalysis                         #Аналіз Приземлення
++resultdlg/verticalspeedattouchdown                #Вертикальна Швидкість і Місце Приземлення
++resultdlg/crabangleattouchdown                    #Кут фюзеляжу в точці Дотику
+
++nojoystickdlg/message                             #Джойстик не під'єднаний чи не налаштований.  Якщо Ти хочеш \nвикористовувати КЛАВІАТУРУ чи МИШКУ в ролі джойстика, прейди до\nОпціїї -> Джойстик/Миша/Клавіатура, nта встанови \nклавіатуру чи мишу для контролю руля висоти та елеронів.\n\n(За умовчанням миша вже налаштована для контролю руля висоти та елеронів.)
++nojoystickdlg/dontshowagain                       #Не показувати це повідомлення пізніше.
+
++gndtoairdlg/enemytab                              #Супротивники
+
++contdlg/message                                   #ПРОДОВЖИТИ ПОЛІТ?
++contdlg/continue                                  #ПРОДОВЖУВАТИ (Y)
++contdlg/terminate                                 #ЗУПИНИТИ (ESC)
+
++configdlg/default                                 #За умовчанням
++configdlg/gamerule                                #Правила Гри
++configdlg/graphics                                #Графіка
++configdlg/opengl                                  #OpenGL
++configdlg/phongShading                            #Phong Shading (лише OpenGL 2.0)
++common/setdefault                                 #Встановити Основні параметри
++configdlg/environment                             #Метео умови
++configdlg/light                                   #Напрямок Освітлення
++configdlg/aircraft                                #Літак
++configdlg/blackout                                #Затемнення в Очах
++configdlg/midair                                  #Зіткнення транспорту при контакті бортами 
++configdlg/notailstrike                            #Без зіткнень при контакті з поверхнею
++configdlg/canlandanywhere                         #Приземлюватися будь-де (якщо швидкість достатьно низька)
++configdlg/autorudder                              #АвтоКоординація Кіля
++configdlg/precision                               #Симуляція Взаємодії
++configdlg/showhudalways                           #Завжди відображати HUD
++cfgdlg/use3dhud                                   #Показати 3D HUD
++cfgdlg/usesimplehud                               #Показати спрощений HUD
++configdlg/dontuseinstpanel                        #Не використовувати Панель Інструментів
++configdlg/showplayernamealways                    #Завжди Відображати Ім'я Гравця
++configdlg/showjoystick                            #Відображати Віртуальний Джойстик
++configdlg/f8cameradelay                           #F8 Відкочування Камери
++configdlg/minradaralt                             #Мінімальна Висота Радара (фути)
++configdlg/showias                                 #Показувати швидкість IAS
++configdlg/drawshadow                              #Відображати Тінь
++configdlg/shadowofdeadplane                       #Відображати Тінь Знищеного Літака
++configdlg/drawordinance                           #Відображати Ordinance
++configdlg/drawcoarseweapon                        #Відображати Coarse Weapon
++configdlg/horizongradation                        #Градієнт Горизонту
++configdlg/cloudtype                               #Хмари
++configdlg/drawlightalways                         #Відображати Ліхтарі в Денний час
++configdlg/airgraphquality                         #Графіка Літаків (деталізація)
++configdlg/smoketype                               #Тип Диму
++configdlg/smokeremain                             #Час Розвіювання Диму (секунди)
++configdlg/smokestep                               #Відображати Дим кожні N кроків
++configdlg/fog                                     #Туман/Смог
++configdlg/visibility                              #Видимість (милі)
++configdlg/zbuffquality                            #Z-Буффер (якість)
++configdlg/trspobj                                 #Прозорість Об'єктів
++configdlg/trspsmoke                               #Прозорість Диму
++configdlg/trspvapor                               #Прозорість Vapor
++configdlg/reducepeephole                          #Виправити Ефект "діри Гвинта"
++configdlg/usedisplistcloud                        #Use Display List for Drawing Cloud
++configdlg/usedisplistexplosion                    #Use Display List for Drawing Explosion
++configdlg/usedisplistweapon                       #Use Display List for Drawing Weapon
++configdlg/groundtexture                           #Показувати Текстуру землі
++configdlg/runwaylighttexture                      #Показувати Текстуру Ліхтарів
++configdlg/showfps                                 #Показувати Частоту Кадрів
++configdlg/drawsmokebyparticle                     #Відображати Дим від горіння Частками
++configdlg/useantialiasing                         #Використовувати Згладжування
++configdlg/antialiasingneedrestart                 #You need to restart the program to have\nantialiasing option take effect.
++configdlg/troublefreq                             #Aircraft Trouble Frequency (разів/годину)
++configdlg/reliability                             #Aircraft Reliability
+
+
++assigndlg/save                                    #Зберегти
++assigndlg/load                                    #Завантажити
++assigndlg/setdefault                              #За Умовчанням
++assigndlg/setdefaultmouse                         #Мишка в ролі Джойстика
++assigndlg/setdefaultkeyboard                      #Клавіатура в ролі Джойстика
++assigndlg/setprimaryjoystick                      #Встановити Клавіші та Кнопки за умовчанням але Мій Основний Джойстик не JOYSTICK #1
++assigndlg/axis                                    #Рукоятка
++assigndlg/trigger                                 #Важіль
++assigndlg/keyboard                                #Клавіатура
++assigndlg/axisfunc                                #Функція осі
++assigndlg/triggerfunc                             #Функція кнопки
++assigndlg/keyfunc                                 #Функця клавіші
++assigndlg/joystickaxis                            #Вісь джойстика
++assigndlg/joystickbutton                          #Кнопка джойстика
++assigndlg/key                                     #Клавіша
++assigndlg/change                                  #Замінити
++assigndlg/elvdeadzone                             #Руль висоти - Мертва Зона (%)
++assigndlg/aildeadzone                             #Елерони - Мертва Зона (%)
++assigndlg/ruddeadzone                             #Кіль - Мертва Зона (%)
++assigndlg/usepov                                  #Use POV Hat Switch
++assigndlg/primariaxismessage                      #Оберіть ID вашого основного джойстика нижче, або \na зробіть повне коло вашим основним джойстиком \nlet шоб ідентифікувати його як основний.
+
+
++optiondlg/scrnmode                                #Режим Дисплея
++optiondlg/rememberwndpos                          #Запам'ятати Позицію і Розмір Вікна
++optiondlg/alwaysontop                             #Завжди на передньому плані
++optiondlg/fontsize                                #Розмір Шрифта
++optiondlg/fontsizewarning                         #
++optiondlg/langtype                                #Мова інтерфейсу
++optiondlg/langfile                                #Файл Локалізації
++optiondlg/langfilebutton                          #Обрати файл Локалізації
++optiondlg/sound                                   #Звук
++optiondlg/openingdemo                             #Відкривати Демо-сцени
++optiondlg/usemappreview                           #Попередній перегляд Карт
++optiondlg/usetaskbar                              #Іконка на панелі задач
++optiondlg/backpicture                             #Фонові Зображення
++optiondlg/d3dxsprite_issue                        #Мій GPU має проблеми з D3DXSprite
++optiondlg/direct3dsucks                           #Мій Direct 3D не відображає шрифти
+
++maindlg/create                                    #НОВИЙ політ !
++maindlg/retry                                     #ПОПЕРЕДНІЙ політ ?
++maindlg/open                                      #Завантажити ЗАПИС <--
++maindlg/save                                      #Зберегти ЗАПИС -->
++maindlg/flynow                                    #=== СТАРТ ===
++maindlg/playrecord                                #Відтворити ЗАПИС |>|
+
++exitdlg/message                                   #Вийти з Програми?
++exitdlg/exit                                      #Вийти (Y)
++exitdlg/backtomenu                                #Повернутися в Меню (N)
+
++deletefltdlg/message                              #Видалити Поточний Політ?
++deletefltdlg/delete                               #Так (Y)
++deletefltdlg/notdelete                            #Ні (N)
+
++stationarydlg/endflight                           #Завершити політ
++stationarydlg/confirmendflight                    #Підтвердити Завершення польоту
++stationarydlg/supply                              #Переоснастити
++stationarydlg/changevehicle                       #Змінити Транспорт
+
++firstdlg/1stline                                  #(This message is shown automatically when the program is launched \nfor the first time after the installation.)
++firstdlg/2ndline                                  #Thank you very much for downloading YS FLIGHT SIMULATOR. \nPlease also visit my Web site.  The URL is:
++firstdlg/3rdline                                  #You can also directly go to the download page by:
++firstdlg/4thline                                  #Enjoy YSFLIGHT!  Thank you!
++firstdlg/5thline                                  #Captain YS
+
++supportdlg/1stline                                #(This message is displayed automatically when you launch the program for the\nfirst time after the installation.\nAfter that, you can open this message by choosing "Help" -> "Please Support YSFLIGHT Project"
++supportdlg/2ndline                                #YSFLIGHT is free software, and, you do not have to pay for enjoying this program.\nHowever, it costs me some money to maintain this project.  So I really appreciate\nif you could support YSFLIGHT project with one of the following methods.
++supportdlg/3rdline                                #(1) Purchase a shareware program from:
++supportdlg/4thline-1                              #(2) When you purchase a book, PC software, a CD, or any product from Amazon.com, \nplease open Amazon.com web site by clicking a link on
++supportdlg/4thline-2                              # 
++supportdlg/4thline-3                              #    and place an order.  (Note: Any purchase counts as long as you open Amazon.com web site by clickng a link on my web site.
+
++supportdlg/jwordline-1                            #
++supportdlg/jwordline-2                            #
++supportdlg/installjword                           #
++supportdlg/explainjword                           #
+
++supportdlg/5thline-1                              #Будь-ласка відвідайте посилання спонсорів:
++supportdlg/5thline-2                              # 
++supportdlg/6thline                                #Щиро дякуємо за підтримку YSFLIGHT project.
+
++explainjword/line1                                #
++explainjword/line2                                #
++explainjword/line3                                #
++explainjword/line4                                #
++explainjword/line5                                #
++explainjword/url                                  #
+
+
++installjword/line1                                #The program detected that this Windows is not a Japanese version.  YSFLIGHT comes with \nan Internet Explorer plug-in called JWord, which works only on Japanese version Windows.\n\n
++installjword/line2                                #You can delete JWord installer to save disk space.  JWord plug-in may also be falsely\ndetected as a spy-ware by an anti-spy-ware program, although it is not considered a\nspy-ware.  By deleting the installer, you can avoid such a false alarm.\n
++installjword/line3                                #Deleting JWord installer does not limit any functionality of YSFLIGHT, and you can use\nall the functionalities of YSFLIGHT after deleting it.\n
++installjword/line4                                #Чи хочете ви видалити встановлювач плагіну JWord зараз?
++installjword/line5                                #
++installjword/install                              #
++installjword/explainjword                         #
++installjword/dontinstall                          #
++installjword/yesdelete                            #Так. Видалити це.
++installjword/comment                              #
++installjword/firststart                           #
+
+
++net/username                                      #Ім'я користувача
++net/field                                         #Карта
++net/hostname                                      #Сервер (IP Адреса)
++net/hostport                                      #Номер Порту Сервера
++net/history                                       #Обрати Сервер з Історії
+
++net/noairplane                                    #This client has no airplane that can be used in this server.\nPlease contact the server administrator for more information.
++net/noscenery                                     #This client does not have a scenery used in this server.\nPlease contact the server administrator for more information.
++net/error/versionconflict                         #Network Protocol Version of the server\ndoes not match this client.\nPlease use the same version YSFLIGHT as\nthe server.
+
++netconfig/general                                 #General
++netconfig/client                                  #Client
++netconfig/server1                                 #Server1
++netconfig/server2                                 #Server2
++netconfig/server3                                 #Server3
++netconfig/port                                    #Network Port
++netconfig/username                                #User Name
++netconfig/chatlog                                 #Save Chat Log
++netconfig/defserveraddr                           #Default Host IP Address
++netconfig/defstp                                  #Default Starting Position
++netconfig/defiff                                  #Default IFF
++netconfig/recordflt                               #Record Flight
++netconfig/freemem                                 #Free Memory When Possible
++netconfig/deffield                                #Default Field
++netconfig/configintercept                         #Config Intercept Mission
++netconfig/disablechat                             #Disable Chat
++netconfig/logontimeout                            #Log-On Time Out
++netconfig/maxconn                                 #Max Connection from Single Address
++netconfig/svrreset                                #Reset Server Every:
++netconfig/svrstop                                 #Stop Server After ? Times:
++netconfig/welcomemsg                              #Send Welcome Message
++netconfig/groundfire                              #Enable Ground Fire
++netconfig/usemissile                              #Enable AAM/AGM
++netconfig/usegun                                  #Enable Gun/Bomb/Rocket
++netconfig/radargunsight                           #Disable Radar Gun Sight
++netconfig/disable3rdairview                       #Disable Third-Airplane View
++netconfig/notifyjoinleave                         #Notify Take Off/Leave
++netconfig/showusername                            #Show User Name
++netconfig/midair                                  #Mid-Air Collision
++netconfig/blackout                                #Black Out
++netconfig/canlandanywhere                         #Can Land Anywhere
++netconfig/minradaralt                             #Minimum Radar Alt
++netconfig/blockedip                               #Blocked IP Address
++netconfig/delblockedip                            #Видалити Обрану IP Адресу зі Списку
++netconfig/newblockedip                            #New Blocked IP Address
++netconfig/addblockedip                            #Add New IP Address to List
+
++netconsole/selectair                              #Обрати Літак
++netconsole/selectstp                              #Обрати Стартову Позицію
++netconsole/join                                   #Приєднатися
++netconsole/observermode                           #Observer Mode
++netconsole/dispeluser                             #Dispel User
++netconsole/listuser                               #Список Користувачів
++netconsole/whokilledme                            #Хто вбив мене?
++netconsole/whomhaveikilled                        #Кого вбив я?
++netconsole/eudnrance_jet                          #Почати режим Виживання (Jet)
++netconsole/endurance_ww2                          #Почати режим Виживання (Ww2)
++netconsole/intercept                              #Почати режим Перехоплення
++netconsole/closeairsupport                        #Розпочати міссію Авіаційної Підтримки
++netconsole/endserver                              #Зупинити сервер
++netconsole/confirmendserver                       #Підтвердити Зупинку Сервера
++netconsole/reviveground                           #Revive Ground
++netconsole/confirmreviveground                    #Confirm Revive Ground
++netconsole/chat                                   #Чат
++netconsole/send                                   #Надіслати
++netconsole/logout                                 #Від'єднатися
++netconsole/confirmlogout                          #Підтвердити Від'єднання
++netconsole/disablechat                            #Вимкнути Чат
++netconsole/lockserver                             #Заблокувати Сервер
++netconsole/joinlock                               #Блокувати Під'єднання
+
++filedlg/ask_overwrite                             #Файл існує. Перезаписати?
++filedlg/saved                                     #Збережено.
++filedlg/cannotwrite                               #Неможливо записати файл.
++filedlg/cannotload                                #Неможливо прочитати файл.
+
++menu/fileMenu                                     #Файл
++menu/file-Open                                    #Відкрити Політ (.yfs)
++menu/file-Save                                    #Зберегти Політ (.yfs)
++menu/file-OpenMission                             #Відкрити Міссію
++menu/file-OpenPrevFlight                          #Відкрити Попередню Міссію
++menu/file-Close                                   #Закрити Політ
++menu/file-Exit                                    #Вихід
+
++menu/simulationMenu                               #Симуляція
++menu/simulation-Fly                               #Політ
++menu/simulation-Retry                             #Спробувати Попередній політ
++menu/simulation-Replay                            #Відтворити Запис польоту
++menu/simulation-Create                            #Створити Новий політ
++menu/simulation-DayNight                          #Обрати День/Ніч
++menu/simulation-DisableGroundFire                 #Вимкнути Наземний Обстріл
++menu/simulation-AirCombat                         #Повітряний Бій
++menu/simulation-SelectAir                         #Обрати Літак
++menu/simulation-SelectStp                         #Обрати Стартову Позицію
++menu/simulation-CreateInGnd                       #Симуляція в Наземному об'єкті
++menu/simulation-LdgPractice                       #Практика Приземлення
++menu/simulation-Endurance                         #Міссія на Виживання
++menu/simulation-Intercept                         #Міссія Перехоплення
++menu/simulation-CloseAirSupport                   #Міссія Авіаційної Підтримкм
++menu/simulation-AntiAirMission                    #Міссія захисту Земля-Повітря
+
++menu/simulation-Ldg-Level01                       #РІВЕНЬ 1: Straight-In, Wind-Calm, Good Visibility
++menu/simulation-Ldg-Level02                       #РІВЕНЬ 2: Straight-In, Light-Wind, Good Visibility
++menu/simulation-Ldg-Level03                       #РІВЕНЬ 3: Dog-Leg, Wind-Calm, Good Visibility
++menu/simulation-Ldg-Level04                       #РІВЕНЬ 4: Base-Leg, Light-Wind, Good Visibility
++menu/simulation-Ldg-Level05                       #РІВЕНЬ 5: Base-Leg, Moderate-Wind, Good Visibility
++menu/simulation-Ldg-Level06                       #РІВЕНЬ 6: Base-Leg, Strong-Wind, Good Visibility
++menu/simulation-Ldg-Level07                       #РІВЕНЬ 7: Straight-In, Wind-Calm, Low Cloud
++menu/simulation-Ldg-Level08                       #РІВЕНЬ 8: Dog-Leg, Wind-Calm, Low Cloud
++menu/simulation-Ldg-Level09                       #РІВЕНЬ 9: Base-Leg, Wind-Calm, Low Cloud
++menu/simulation-Ldg-Level10                       #РІВЕНЬ10: Base-Leg, Light-Wind, Low Cloud
++menu/simulation-Ldg-Level11                       #РІВЕНЬ11: Base-Leg, Moderate-Wind, Low Cloud
++menu/simulation-Ldg-Level12                       #РІВЕНЬ12: Straigh-In, Wind-Calm, Low Visibility
++menu/simulation-Ldg-Level13                       #РІВЕНЬ13: Base-Leg, Wind-Calm, Low Visibility
++menu/simulation-Ldg-Level14                       #РІВЕНЬ14: Base-Leg, Moderate-Wind, Low Visibility
++menu/simulation-Ldg-Level15                       #РІВЕНЬ15: Base-Leg, Strong-Wind, Low Visibility+Low Cloud
+
++menu/optionMenu                                   #Опції
++menu/option-Config                                #Конфігурація
++menu/option-Option                                #Параметри
++menu/option-KeyAssign                             #Джойстик/Миша/Клавіатура
++menu/option-JoyCalib                              #Калібрувати Джойстик
+
++menu/autoDemoMenu                                 #АвтоДемо
++menu/autoDemo-Acro                                #Акробатика
++menu/autoDemo-DogFight                            #Повітряний бій
++menu/autoDemo-Ldg                                 #Приземлення
++menu/autoDemo-CarrierLdg                          #Приземлення на Авіаносець
+
++menu/autoDemo-Acro-CorkScrew                      #Cork Screw
++menu/autoDemo-Acro-SlowRoll                       #Slow Roll
++menu/autoDemo-Acro-DeltaLoop                      #Delta Loop
++menu/autoDemo-Acro-DeltaRoll                      #Delta Roll
++menu/autoDemo-Acro-TightTurn                      #Tight Turn
++menu/autoDemo-Acro-360AndLoop                     #360 and Loop
++menu/autoDemo-Acro-BombBurstUpward4               #Bomb Burst Upward (4 ship)
++menu/autoDemo-Acro-BombBurstUpward6               #Bomb Burst Upward (6 ship)
++menu/autoDemo-Acro-ChangeOverTurn                 #Change Over Turn
++menu/autoDemo-Acro-TrailToDiamondRoll             #Trail to Diamond Roll
++menu/autoDemo-Acro-CubanEight                     #Cuban Eight
++menu/autoDemo-Acro-DeltaLoopAndBonton             #Delta Loop and Bonton
++menu/autoDemo-Acro-BontonRoll                     #Bontol Roll
++menu/autoDemo-Acro-BombBurstDownward4             #Bomb Burst Downward (4 ship)
++menu/autoDemo-Acro-BombBurstDownward6             #Bomb Burst Downward (6 ship)
++menu/autoDemo-Acro-RainFall                       #Rail Fall
++menu/autoDemo-Acro-RollingCombatPitch             #Rolling Combat Pitch
++menu/autoDemo-Acro-DiamondTakeOff                 #Diamond Take Off
++menu/autoDemo-Acro-ContinuousRoll                 #Continuous Roll
++menu/autoDemo-Acro-RollOnTakeOffHalfCuban         #Roll on Take Off and Half Cuban
++menu/autoDemo-Acro-TackCrossVertRoll              #Tack Cross and Vertical Climb Roll
++menu/autoDemo-Acro-BigHeart                       #Big Heart
++menu/autoDemo-Acro-LevelBreak                     #Level Break
++menu/autoDemo-Acro-RollBackToArrowhead            #Roll Back to Arrowhead
++menu/autoDemo-Acro-PitchUpBreak                   #Pitch Up Break
++menu/autoDemo-Acro-RockWingGearDown               #Rock Wing (Gear Down)
++menu/autoDemo-Acro-RockWingClean                  #Rock Wing (Clean)
++menu/autoDemo-Acro-LetterEight                    #Letter Eight
++menu/autoDemo-Acro-StarCross                      #Star Cross
++menu/autoDemo-Acro-LevelOpener                    #Level Opener
++menu/autoDemo-Acro-FormBreak                      #Formation Break
++menu/autoDemo-Acro-LineAbreastRoll                #Line Abreast Roll
++menu/autoDemo-Acro-LineAbreastLoop                #Line Abreast Loop
++menu/autoDemo-Acro-DoubleFarvel                   #Double Farvel
++menu/autoDemo-Acro-Dia9ToSwan                     #Diamond 9 to Swan Bend
++menu/autoDemo-Acro-SwanToApolloRoll               #Swan to Apollo Roll
++menu/autoDemo-Acro-LancasterTo5-4Split            #Lancaster to 5-4 Split
++menu/autoDemo-Acro-ChampaignSplit                 #Champaign Split
++menu/autoDemo-Acro-VixenBreak                     #Vixen Break
++menu/autoDemo-Acro-BigBattleToShortDiaLoop        #Big Battle to Short Diamond Loop
+
++menu/networkMenu                                  #Мережа
++menu/network-Server                               #Сервер
++menu/network-Client                               #Клієнт
++menu/network-Config                               #Налаштування Мережі
+
++menu/flightRecUtilMenu                            #Запис Польотів
++menu/flightRecUtil-TimeInterval                   #Встановити Часовий Інтервал
++menu/flightRecUtil-SpacePrecision                 #Встановити Space Precision
++menu/flightRecUtil-EditRecord                     #Редагування Запису Польоту
+
++menu/helpMenu                                     #Довідка
++menu/help-HelpEnglish                             #Help - English
++menu/help-DefKeyEnglish                           #Default Key Strokes and Controls - English
++menu/help-HelpJapanese                            #Help - Japanese
++menu/help-DefKeyJapanese                          #Default Key Strokes and Controls - Japanese
++menu/help-About                                   #Про YSFLIGHT
++menu/help-SupportYSFlight                         #Підтримай YSFLIGHT Project
+
++menu/learning                                     #Machine Learning
++menu/learning/trainAutoPilot                      #Generate Training Data for Auto Pilot
+
++joycalib_calib                                    #Калібрування Рукоятки
++joycalib_calibhat                                 #Калібрування Мініджойстика ("хатка")
++joycalib_fileexit                                 #Вихід
++joycalib_caliberase                               #Очистити налаштування Калібраціі
+
++joycalib_hatneutral                               #Release Hat Switch and Press SPACE key
++joycalib_hat0deg                                  #Push Hat Switch Forward (or Up) та Натисни клавішу ПРОБІЛ
++joycalib_hat90deg                                 #Push Hat Switch Right and Press SPACE key
++joycalib_hat180deg                                #Push Hat Switch Backward (or Down) та Натисни клавішу ПРОБІЛ
++joycalib_hat270deg                                #Push Hat Switch Left та Натисни клавішу ПРОБІЛ
+
++joycalib_axiscycle                                #Move Axis All the Way Up and Down кілька разів та Натисни клавішу ПРОБІЛ
++joycalib_axisneutral                              #Відцентруй Маніпулятор та Натисни клавішу ПРОБІЛ
++joycalib_stickcircle                              #Зроби кілька Обертів рукояткою Джойстика та Натисни клавішу ПРОБІЛ
++joycalib_stickneutral                             #Відцентруй Джойстик та Натисни клавішу ПРОБІЛ
++joycalib_next                                     #Далі >
